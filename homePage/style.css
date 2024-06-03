@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+    font-family: "Inria Serif", serif;
+    font-style: normal;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #282828;
+}
+
+header{
+    background-color: #4B4B4B;
+    color: white;
+    height: 25vh;
+    padding-top:5vh;
+    text-align: center;
+}
+
+h1{
+    text-shadow: 2px 2px 4px #00000041;
+}
+
+header p{
+    font-style: italic;
+    text-shadow: 2px 2px 4px #00000041;
+}
+
+.containertags{
+    margin-top: 8vh;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: large;
+}
+
+.tags1{
+    display: flex;
+    height: 7vh;
+    padding: 0vw 2vw;
+    border-radius: 40px;
+    background-color: #C02A2A;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 3px 0px #1c1c1cb9;
+}
+
+.tags2{
+    display: flex;
+    height: 8vh;
+    padding: 0vw 2vw;
+    border-radius: 40px;
+    background-color: #2FA0D7;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 3px 0px #1c1c1c96;
+}
+
+.containertags a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.card{
+    padding: 0px;
+    display: flex;
+    width: 75vw;
+    height: 40vh;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    margin-top: 8vh;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 3px 3px 0px #1C1C1C;
+    cursor: pointer;
+}
+
+.cardLeft{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardRight{
+    width: 65%;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.rightTitles{
+    font-weight: bold;
+    width: 38%;
+    font-size: larger;
+}   
+
+.rightTitles p{
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 5vh;
+}
+
+.rightText{
+    margin-left: 0vw;
+    width: 62%;
+    font-size:large;
+}
+
+.rightText p{
+    margin-bottom: 5vh;
+}
+
+img{
+    width: 22vw;
+    height: 25vh;
+    border-radius: 20px;
+    box-shadow: 0px 3px 6px 2px #1c1c1c5b;
+}

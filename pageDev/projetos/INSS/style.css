@@ -1,0 +1,75 @@
+body{
+    margin: 0p;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;    
+    min-width: 300px;
+    height: 93vh;
+    background-color: #f3f3f3;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 2px gray;
+    justify-content: center;
+    position: relative;
+}
+
+.input{
+    width: 15vw;
+    min-width: 200px;
+    padding: 5px 10px ;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 1vh auto;
+}
+
+.inputR{
+    width: 15vw;
+    min-width: 200px;
+    padding: 5px 10px ;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    margin: 1vh auto;
+    outline: none;
+    background-color: #f3f3f3;
+
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;   
+}
+
+.titulos{
+    margin-bottom:1px ;
+    font-size: larger;
+    margin-left: 4.5vw;
+    margin-top: 10px;
+}
+
+#calc{
+    height: 10vh;
+    margin: 0px;
+    border: none;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #C02A2A;
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    position: absolute; /* Permite o posicionamento do botão dentro do contêiner */
+    bottom: 0; /* Fixar na parte inferior */
+    left: 0; /* Alinhar à esquerda */
+    width: 100%;
+
+}
+
+#calc:hover{
+    background-color: rgb(255, 111, 111);
+    color: black;
+}

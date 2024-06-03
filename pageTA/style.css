@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+    font-family: "Inria Serif", serif;
+    font-style: normal;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #282828;
+}
+
+header{
+    display: flex;
+    background-color: #4B4B4B;
+    color: white;
+    height: 25vh;
+    padding-top:5vh;
+    text-align: center;
+    justify-content: center;
+}
+
+h1{
+    margin-left: 20vw;
+    text-shadow: 2px 2px 4px #00000041;
+}
+
+#cpp{
+    height:80px ;
+    width: 80px;
+    margin-left: 10vw;
+}
+
+header div{
+    display: flex;
+    margin-top: 12vh;
+    margin-left: 20vw;
+    text-shadow: 2px 2px 4px #00000041;
+}
+
+.docente{
+    font-style: italic;
+    font-weight: bold;
+}
+.nome{
+    margin-left: 5px;
+    font-style: italic;
+}
