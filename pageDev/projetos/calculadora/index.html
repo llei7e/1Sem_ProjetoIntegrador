@@ -1,56 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Calculadora</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-        <script src="assets/js/scripts.js"></script>
-    </head>
-    <body>
-        <div class="calculator">
-            <input type="text" id="secondDisplay" readonly> 
-            <input type="text" id="display" readonly>
 
-            <div class="buttons">
-                <span>Notação</span>
-                <span><input type="radio" name="notacao" onclick="inFix('infixa')"/>IN</span>
-                <span><input type="radio" name="notacao" onclick="inFix('posfixa')"/>PÓS</span>
-                <span><input type="radio" name="notacao" onclick="inFix('prefixa')" />PRÉ</span>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+    <script src="assets/js/scripts.js"></script>
+</head>
 
+<body>
+
+    <main>
                 
-                <button onclick="operator('(')">(</button>
-                <button onclick="operator(')')">)</button>
-                <button onclick="operator('√')">√</button>
-                <button onclick="operator('**')">^</button>
-                
-                <button onclick="appendToDisplay('7')">7</button>
-                <button onclick="appendToDisplay('8')">8</button>
-                <button onclick="appendToDisplay('9')">9</button>
-                <button onclick="operator('/')">/</button>
+        <div>   
+            <span id="visorinfo" class="visor"></span>
+            
+            <br><br>
+            <input class="c" type="button" value="C" >
+            <input class="ce" type="button" value="CE" >
+            <input class="operadores" type="button" value="/">
+            <input class="operadores" type="button" value="x">
 
-                <button onclick="appendToDisplay('4')">4</button>
-                <button onclick="appendToDisplay('5')">5</button>
-                <button onclick="appendToDisplay('6')">6</button>
-                <button onclick="operator('*')">*</button>
-                
-                <button onclick="appendToDisplay('1')">1</button>
-                <button onclick="appendToDisplay('2')">2</button>
-                <button onclick="appendToDisplay('3')">3</button>
-                <button onclick="operator('-')">-</button>
+            <br>   
 
-                <button onclick="backspace()">←</button>
-                <button onclick="appendToDisplay('0')">0</button>
-                <button onclick="appendToDisplay('.')">.</button>
-                <button onclick="operator('+')">+</button>
+            <input class="deslocFline" type="button" value="7">
+            <input class="button" type="button" value="8">
+            <input class="button" type="button" value="9">
+            <input class="operadores" type="button" value="-">
+            <br>
 
-                <button onclick="clearDisplay()">C</button>
-                <button onclick="calculate('=')">=</button>
-                <button onclick="enter()">enter</button>
+            <input class="deslocFline" type="button" value="4">
+            <input class="button" type="button" value="5">
+            <input class="button" type="button" value="6">
+            <br>
 
-            </div>
+            <input class="deslocFline" type="button" value="1">
+            <input class="button" type="button" value="2">
+            <input class="button" type="button" value="3">
+            <br>
+
+            <input class="zero" type="button" value="0">
+            <input class="button" type="button" value=".">
+            <input class="operadores" type="button" value="=">
+            
+
+           
 
         </div>
-        
-    </body>
+        <input class="plus" type="button" value="+">
+
+    </main>
+
+</body>
+
 </html>
