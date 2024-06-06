@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
-    font-family: "Poppins", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
+    color: white;
 }
 
 body{
@@ -22,13 +23,14 @@ header{
     justify-content: center;
 }
 h1{
-    margin-left: 16vw;
+    margin-left: 13vw;
     text-shadow: 2px 2px 4px #00000041;
 }
 
 #sql{
     height:100px;
     width: 210px;
+    margin-left: 6vw;
 }
 
 header div{
@@ -45,4 +47,139 @@ header div{
 .nome{
     margin-left: 5px;
     font-style: italic;
+}
+
+h2{
+    margin-left: 10vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.topicos{
+    margin-left: 6vw;
+    font-size: 18px;
+    margin-bottom: 3vh;
+}
+
+.grupoTopicos{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
+    width: 80vw;
+    padding: 80px;
+    border-radius: 40px;
+    box-shadow: 0px 3px 0px 2px #1c1c1c;
+    background: rgb(40,40,40);
+    background: linear-gradient(145deg, rgba(40,40,40,1) 0%, rgba(48,48,48,1) 0%, rgba(57,57,57,1) 150%);
+}
+
+main img{
+    border-radius: 40px;
+    box-shadow: 0px 3px 3px 0px #1c1c1c;
+}
+
+.titulos{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8vh;
+}
+
+#estruturaDeDados img{
+    width: 300px;
+    height: 320px;
+}
+
+.grupoVariaveis{
+    margin-top: 6vh;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.subTopicos{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 5vh;
+    margin-top: 10vh;
+}
+
+#modelagem .grupoVariaveis{
+    display: flex;
+    flex-direction: column;
+}
+
+#diagramaER{
+    width: 60vw;
+    height: 80vh;
+}
+
+#diagramaUML{
+    width: 45vw;
+    height: 70vh;
+}
+
+#comandosSQL .titulos{
+    margin-bottom: 5vh;
+}
+
+#comandosSQL .topicos{
+    margin-bottom: 8vh;
+}
+
+#noSQL .subTopicos{
+    margin-left: 5vw;
+}
+
+.pontos{
+    margin-left: 10vw;
+}
+
+#tiposNosql{
+    display: flex;
+    justify-content: center;
+}
+
+#compass{
+    display: flex;
+    justify-content: center;
+}
+
+#mongosh{
+    display: flex;
+    justify-content: center;
+}
+
+#compass img{
+    width: 70vw;
+    height: 70vh;
+    border-radius: 20px
+}
+
+#mongosh img{
+    width: 50vw;
+    height: 90vh;
+    border-radius: 20px
+}
+
+#noSQL .subTopicos{
+    margin-top: 15vh;
+}
+
+.links{
+    display: flex;
+    gap: 6vw;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+
+.linkTamanho{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.linkTamanho:hover{
+    scale: 1.2;
+    transition: 600ms;
 }

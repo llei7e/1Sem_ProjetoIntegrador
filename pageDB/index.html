@@ -17,6 +17,106 @@
             <p class="nome"> Caina Antunes</p>
         </div>
     </header>
+
+    <main>
+        <h2>O que aprendi:</h2>
+        <div class="grupoTopicos" id="estruturaDeDados">
+            <p class="titulos">Estrutura de Dados:</p>
+            <p class="topicos">• Estruturados:  São dados que seguem uma organização pré definida  e esperada, tendo seus campos fixos.</p>
+            <p class="topicos">• Não estruturados:  Eles não estão organizados em tabelas ou bancos de dados relacionais, e podem conter diversos tipos de arquivos como texto, aúdio, vídeo, imagens.</p>
+            <p class="topicos">• Semi-estruturados:  São dados que não possuem uma estrutura pré definida, porém são organizados por meio de tags ou labels, permitindo agrupa-los e criar hierarquias. Esse tipo de estrutura de dados também são conhecidas como NoSQL.</p>
+            <div class="grupoVariaveis">
+                <div class="variavel">
+                    <p class="subTopicos">Estruturados</p>
+                    <img src="./DBimages/estruturados.png" alt="Imagem exemplo dados estruturados">
+                </div>
+                <div class="variavel">
+                    <p class="subTopicos">Semi-Estruturados</p>
+                    <img src="./DBimages/semiEstruturados.png" alt="Imagem exemplo dados semi estruturados">
+                </div>
+                <div class="variavel">
+                    <p class="subTopicos">Não Estruturados</p>
+                    <img src="./DBimages/naoEstruturados.png" alt="Imagem exemplo dados nao estruturados">
+                </div>
+            </div>
+        </div>
+
+        <div class="grupoTopicos" id="modelagem">
+            <p class="titulos">Modelagem de Dados:</p>
+            <div class="grupoVariaveis">
+                <div class="variavel">
+                    <p class="subTopicos">Conceitual - DER</p>
+                    <img id="diagramaER" src="./DBimages/DER.jpg" alt="Imagem exemplo diagrama ER">
+                </div>
+                <div class="variavel">
+                    <p class="subTopicos">Lógico - UML</p>
+                    <img id="diagramaUML" src="./DBimages/UML.png" alt="Imagem exemplo UML">
+                </div>
+                <div class="variavel">
+                    <p class="subTopicos">Físico - Tabelas</p>
+                    <img src="./DBimages/Tabela.png" alt="Imagem exemplo Tabelas">
+                </div>
+            </div>
+        </div>
+
+        <div class="grupoTopicos" id="comandosSQL">
+            <p class="titulos">Comandos DDL:</p>
+            <p class="topicos">• Comandos iniciais para criação das tabelas (CREATE, ALTER, DROP).</p>
+            <p class="titulos">Comandos DML:</p>
+            <p class="topicos">• Comamandos para alteração de colunas, linhas e dados de uma tabela (INSERT, UPDATE, DELETE, SELECT).</p>
+            <p class="titulos">Comandos DQL:</p>
+            <p class="topicos">• Comandos para buscar e estratificar dados em uma tabela (SELECT, ORDER BY, JOIN, GROUP BY, UNION, INTERSECT), além de operadores e funções.</p>
+        </div>
+
+        <div class="grupoTopicos" id="normalização">
+            <p class="titulos">Normalização:</p>
+            <p class="topicos">• Processo de organização de dados em um banco de dados, seja criando tabelas e estabelecendo relações entre elas seguindo regras, tornando o banco de dados mais flexível, eliminando a redundância e inconsistencia.</p>
+            <p class="topicos">• 1ª Forma Normal: Somente possuí valores atômicos, não há atributos diferentes em mesma linha, existe PK, relação não possui relações aninhadas;</p>
+            <p class="topicos">• 2ª Forma Normal: Pertence a 1ª FN, não contém dependências parciais;</p>
+            <p class="topicos">• 3ª Forma Normal: Pertence a 2ª FN, não contém dependências transitiva;</p>
+        </div>
+
+        <div class="grupoTopicos" id="noSQL">
+            <p class="titulos">NoSQL:</p>
+
+            <p class="subTopicos">Vantagens</p>
+            <p class="pontos">• Modelos de dados e esquema flexível;</p>
+            <p class="pontos">• Desenvolvimento ágil;</p>
+            <p class="pontos">• Escalonamento horizontal, permitindo o aumento da capacidade à medida que os dado e o tráfego crescem;</p>
+            <p class="pontos">• Armazenamento de dados em massa, foi criado para lidar com conjuntos de dados grande e complexos;</p>
+            <p class="pontos">• Consultas ágeis, não exige junções complexas, o que significa que as consultas ao banco de dados retornam resultados mais rapidamente;</p>
+            
+            <p class="subTopicos">Desvantagens</p>
+            <p class="pontos">Por ser relativamente novo, possuí menos ferramentas e produtos disponíveis e menos suporte em caso de problemas não documentados;</p>
+            <p class="pontos">Cada banco de dados pode ter sua própria linguagem para consultar e gerenciar dados</p>
+            <p class="pontos">Não possui garantia da integridade de dados como num banco de dados relacional;</p>
+
+            <p class="subTopicos">Tipos de dados NoSQL:</p>
+            <div id="tiposNosql">
+                <img src="./DBimages/tiposNosql.png" alt="Imagem exemplo tipos de dados nosql">
+            </div>
+
+            <p class="subTopicos">Consulta via MongoDBCompass:</p>
+            <div id="compass">
+                <img src="./DBimages/consultaMong.png" alt="Imagem exemplo consulta MongoDBCompass">
+            </div>
+
+            <p class="subTopicos">Consulta via Mongosh:</p>
+            <div id="mongosh">
+                <img src="./DBimages/consultaMongosh.png" alt="Imagem exemplo consulta Mongosh">
+            </div>
+        </div>
+    </main>
+
+    <div class="links">
+        <a href="https://github.com/llei7e/LP">
+        <img class="linkTamanho"  src="./DBimages/github2.png" alt="logo github">
+        </a>
+
+        <a href="https://www.linkedin.com/in/lucas-leite-b9337a208/">
+        <img class="linkTamanho" src="./DBimages/linkedin.png" alt="logo linkedin">
+        </a>
+    </div>
     
 </body>
 </html>
