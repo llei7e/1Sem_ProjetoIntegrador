@@ -17,6 +17,118 @@
             <p class="nome"> Caina Antunes</p>
         </div>
     </header>
+
+    <main>
+        <h2>O que aprendi:</h2>
+        <div class="grupoTopicos" id="amostragem">
+            <p class="titulos">-- Amostragem --</p>
+            <div class="grupoVariaveis">
+                <div class="variavel">
+                    <p class="subTopicos">Amostragem Aleatória:</p>
+                    <p class="texto">• Assim como o nome diz, a amostragem aleatória é basicamente a retirada de amostras de um Conjunto de Dados de forma aleatória.</p>
+                    <img id="amostragemAleatoriaIMG" src="./DSimages/amostragemAleatoria.png" alt="Imagem exemplo amostragem aleatória">
+                </div>
+                <div class="variavel">
+                    <p class="subTopicos">Amostragem sistemática:</p>
+                    <p class="texto">• A amostragem sistemática, consiste em retirada de amostras na qual se realiza uma busca aleatória pelo primeiro elemento, e os demais elementos são encontrados através de um determinado intervalo.</p>
+                    <img id="amostragemAleatoriaIMG" src="./DSimages/amostragemSistemática.png" alt="Imagem exemplo amostragem sistemática">
+                </div>
+                <div class="variavel">
+                    <p class="subTopicos">Amostragem Estratificada:</p>
+                    <p class="texto">• A amostragem estratificada consiste na retirada de amostras na qual inicialmente se separa os dados em grupos homogeneos, e apartir disso é retirado uma amostra aleatória de cada grupo.</p>
+                    <img id="amostragemEstratificadaIMG" src="./DSimages/amostragemEstratificada.png" alt="Imagem exemplo amostragem estratificada">
+                </div>
+            </div>
+        </div>
+
+        <div class="grupoTopicos" id="tendencias">
+            <p class="titulos">-- Tendências Centrais --</p>
+            <div class="grupoVariaveis">
+                <div class="variavel">
+                    <p class="subTopicos">Moda:</p>
+                    <p class="texto">Moda em um conjunto de dados é representado pelo elemento que aparece com maior frequencia dentre os demais. Podendo ser:</p>
+                    <p class="exemplos">• Modal (quando um elemento se repete mais que os demais),</p>
+                    <p class="exemplos">• Bimodal (quando dois elementos se repetem igualmente mais que os demais), </p>
+                    <p class="exemplos">• Polimodal (quando três ou mais elementos se repetem igualmente mais que os demais),</p>
+                    <p class="exemplos">• Amodal (quando todos os dados aparecem com a mesma frequencia).</p>
+                    <img id="modaIMG" src="./DSimages/moda.png" alt="Imagem exemplo moda">
+                </div>
+                <div class="variavel">
+                    <p class="subTopicos">Mediana:</p>
+                    <p class="texto">Mediana em um conjunto numérico ordenado é representada pelo numero ou média dos numeros que ocupam a posição central.</p>
+                    <img id="medianaIMG" src="./DSimages/mediana.png" alt="Imagem exemplo mediana">
+                </div>
+                <div class="variavel">
+                    <p class="subTopicos">Media aritmética:</p>
+                    <p class="texto">A média de um conjunto numérico é representada pela soma de todos o elementos do conjunto, divido pela quantidade de elementos.</p>
+                    <img id="mediaIMG" src="./DSimages/media.png" alt="Imagem exemplo media">
+                </div>
+
+                <div class="variavel">
+                    <p class="subTopicos">Percentil:</p>
+                    <p class="texto">Percentil é dado pelo valor de um dado conjunto numérico ordenado, de forma a que o menor valor equivale a 0 e o maior valor equivale a 100, ou seja, de 0% a 100%. Podendo assim encontrar qual valor pertence a cada percentil, seja de 20%, 45% ou qualquer outro.</p>
+                    <img id="percentil" src="./DSimages/percentil.png" alt="Imagem exemplo percentil">
+                </div>
+
+                <div class="variavel">
+                    <p class="subTopicos">Quartil:</p>
+                    <p class="texto">Seguindo a mesma linha de raciocinio, o quartil representa as medidas de 1/4, 2/4, e 3/4 de um conjunto numérico, ou seja, num conjunto numérico de 0 a 100:</p>
+                    <p class="exemplos">• 1/4 = 25.</p>
+                    <p class="exemplos">• 2/4 = 50.</p>
+                    <p class="exemplos">• 3/4 = 75.</p>
+                    <img id="mediaIMG" src="./DSimages/quartil.png" alt="Imagem exemplo quartil">
+                </div>
+            </div>
+        </div>
+
+        <div class="grupoTopicos" id="dispersao">
+            <p class="titulos">-- Medidas de Dispersão --</p>
+            <div class="grupoVariaveis">
+                <div class="variavel">
+                    <p class="subTopicos">Amplitude:</p>
+                    <p class="texto">É definida pela diferença entre o maior e o menor elemento de um conjunto de valores.</p>
+                    <img id="amplitudeIMG" src="./DSimages/amplitude.png" alt="Imagem exemplo amplitude">
+                </div>
+                <div class="variavel">
+                    <p class="subTopicos">Variância:</p>
+                    <p class="texto">É definida pela diferença ao quadrado entre todos os elementos de um conjunto de valores, divido pelo numero de elementos presentes no conjunto.</p>
+                </div>
+                <div class="variavel">
+                    <p class="subTopicos">Desvio Padrão:</p>
+                    <p class="texto">Já o desvio padrão é dado pelo quadrado da variância, ou seja:</p>
+                    <p class="exemplos">• desvio padrao  = variancia²</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="grupoTopicos" id="qui">
+                <div class="variavel">
+                    <p class="subTopicos">Qui Quadrado:</p>
+                    <p class="texto">Se define pela probabilidade de relação entre duas ou mais variáveis numa tabela cruzada.</p>
+                    <p class="texto">Seu cálculo é determinado pela diferença entre a tabela de dados como base, menos  a tabela com os dados esperados ao quadrado, dividido pela tabela de dados esperados, ou seja:</p>
+                    <p class="exemplos">• df_result = ((df_base - df_esperado) ^ 2) / df_esperado.</p>
+                </div>
+        </div>
+        
+    </main>
+
+    <div class="links">
+        <a href="https://github.com/llei7e">
+        <img class="linkTamanho"  src="../pageLP/LPimages/gitHub2.png" alt="logo github">
+        </a>
+
+        <a href="https://www.linkedin.com/in/lucas-leite-b9337a208/">
+        <img class="linkTamanho" src="../pageLP/LPimages/linkedin.png" alt="logo linkedin">
+        </a>
+
+        <a href="https://colab.research.google.com/drive/1AT--BN3lAMm3Zh4YHcv_8AS0gemYXd8d">
+            <img class="colab" src="./DSimages/colab.png" alt="logo linkedin">
+        </a>
+
+        <a href="https://colab.research.google.com/drive/1SkQ69gPzqkSJ_2UmHKeFPreFtWgzM-in">
+            <img class="colab" src="./DSimages/colab2.png" alt="logo linkedin">
+        </a>
+    </div>
     
 </body>
 </html>

@@ -30,13 +30,13 @@ h1{
 #sql{
     height:100px;
     width: 210px;
-    margin-left: 6vw;
+    margin-left: 9vw;
 }
 
 header div{
     display: flex;
     margin-top: 12vh;
-    margin-left: 20vw;
+    margin-left: 25vw;
     text-shadow: 2px 2px 4px #00000041;
 }
 
