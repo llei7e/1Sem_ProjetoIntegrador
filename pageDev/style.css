@@ -55,8 +55,9 @@ a{
     color: inherit;
 }
 
-a:hover{
-    scale: 1.1;
+.navBar a:hover{
+    scale: 1.05;
+    transition: 150ms;
 }
 
 .navBar{
@@ -84,18 +85,16 @@ a:hover{
     position: absolute;
     background-color: #F4F4F4;
     color: black;
-    min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.415);
-    padding: 12px 0px;
-    padding-left: 15px;
-    padding-right: 12px;
     z-index: 1;
-    border-radius: 20px;
+    min-width: 80px;
+    border-radius: 10px;
+    padding: 20px 40px;
+    padding-left: 10px;
+    margin-left: -0px;
 }
 
 .calcs:hover .calcs-content{
-    margin-top: 0px;
-    margin-left: -15px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -103,5 +102,24 @@ a:hover{
 
 iframe{
     width: 100%;
-    height: 80vh;
+    height: 100vh;
+}
+
+.links{
+    margin-top: 10vh;
+    display: flex;
+    gap: 6vw;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+
+.linkTamanho{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.linkTamanho:hover{
+    scale: 1.2;
+    transition: 600ms;
 }

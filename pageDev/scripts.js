@@ -263,3 +263,4 @@ document.getElementById('git').addEventListener('click', function() {
     document.getElementById("git").style.color = "#C02A2A";
     }
   );
+

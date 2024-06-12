@@ -80,6 +80,11 @@ main img{
     background: linear-gradient(145deg, rgba(40,40,40,1) 0%, rgba(48,48,48,1) 0%, rgba(57,57,57,1) 150%);
 }
 
+.grupoTopicos:hover{
+    background: rgb(69, 69, 69);
+    transition: 200ms;
+}
+
 .grupoVariaveis{
     display: flex;
     justify-content: space-around;
