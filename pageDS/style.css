@@ -13,6 +13,14 @@ body{
     background-color: #282828;
 }
 
+i{
+    color: #ffde52;
+}
+
+header a{
+    height: 30px;
+}
+
 header{
     display: flex;
     background-color: #4B4B4B;

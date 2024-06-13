@@ -15,7 +15,7 @@ document.getElementById('semantico').addEventListener('click', function() {
     document.getElementById("script").style.color = "black";
     document.getElementById("inss").style.color = "black";
 
-    document.getElementById("git").style.color = "black";
+    document.getElementById("notion").style.color = "black";
     }
   );
   
@@ -36,7 +36,7 @@ document.getElementById('imc').addEventListener('click', function() {
     document.getElementById("script").style.color = "black";
     document.getElementById("inss").style.color = "black";
 
-    document.getElementById("git").style.color = "black";
+    document.getElementById("notion").style.color = "black";
     }
   );
 
@@ -57,7 +57,7 @@ document.getElementById('gabigol').addEventListener('click', function() {
     document.getElementById("script").style.color = "black";
     document.getElementById("inss").style.color = "black";
 
-    document.getElementById("git").style.color = "black";
+    document.getElementById("notion").style.color = "black";
     }
   );
 
@@ -78,7 +78,7 @@ document.getElementById('login').addEventListener('click', function() {
     document.getElementById("script").style.color = "black";
     document.getElementById("inss").style.color = "black";
 
-    document.getElementById("git").style.color = "black";
+    document.getElementById("notion").style.color = "black";
     }
   );
 
@@ -99,7 +99,7 @@ document.getElementById('todo').addEventListener('click', function() {
     document.getElementById("script").style.color = "black";
     document.getElementById("inss").style.color = "black";
 
-    document.getElementById("git").style.color = "black";
+    document.getElementById("notion").style.color = "black";
     }
   );
 
@@ -120,7 +120,7 @@ document.getElementById('calcs').addEventListener('click', function() {
     document.getElementById("script").style.color = "black";
     document.getElementById("inss").style.color = "black";
 
-    document.getElementById("git").style.color = "black";
+    document.getElementById("notion").style.color = "black";
     }
   );
 
@@ -140,7 +140,7 @@ document.getElementById('primeira').addEventListener('click', function() {
     document.getElementById("script").style.color = "black";
     document.getElementById("inss").style.color = "black";
 
-    document.getElementById("git").style.color = "black";
+    document.getElementById("notion").style.color = "black";
     }
   );
 
@@ -160,7 +160,7 @@ document.getElementById('segunda').addEventListener('click', function() {
     document.getElementById("script").style.color = "black";
     document.getElementById("inss").style.color = "black";
 
-    document.getElementById("git").style.color = "black";
+    document.getElementById("notion").style.color = "black";
     }
   );
 
@@ -180,7 +180,7 @@ document.getElementById('avaliativa').addEventListener('click', function() {
     document.getElementById("script").style.color = "black";
     document.getElementById("inss").style.color = "black";
 
-    document.getElementById("git").style.color = "black";
+    document.getElementById("notion").style.color = "black";
     }
   );
 
@@ -200,7 +200,7 @@ document.getElementById('forms').addEventListener('click', function() {
     document.getElementById("script").style.color = "black";
     document.getElementById("inss").style.color = "black";
 
-    document.getElementById("git").style.color = "black";
+    document.getElementById("notion").style.color = "black";
     }
   );
 
@@ -220,7 +220,7 @@ document.getElementById('script').addEventListener('click', function() {
     document.getElementById("script").style.color = "#C02A2A";
     document.getElementById("inss").style.color = "black";
 
-    document.getElementById("git").style.color = "black";
+    document.getElementById("notion").style.color = "black";
     }
   );
 
@@ -240,11 +240,11 @@ document.getElementById('inss').addEventListener('click', function() {
     document.getElementById("script").style.color = "black";
     document.getElementById("inss").style.color = "#C02A2A";
 
-    document.getElementById("git").style.color = "black";
+    document.getElementById("notion").style.color = "black";
     }
   );
 
-document.getElementById('git').addEventListener('click', function() {
+  document.getElementById('notion').addEventListener('click', function() {
     document.getElementById("semantico").style.color = "black";
     document.getElementById("imc").style.color = "black";
     document.getElementById("gabigol").style.color = "black";
@@ -260,7 +260,6 @@ document.getElementById('git').addEventListener('click', function() {
     document.getElementById("script").style.color = "black";
     document.getElementById("inss").style.color = "black";
 
-    document.getElementById("git").style.color = "#C02A2A";
+    document.getElementById("notion").style.color = "#C02A2A";
     }
   );
-
