@@ -1,10 +1,8 @@
 <h1 align="center">
-  💻<br>Portfólio - Lucas Leite
+Portfólio - Lucas Leite
 </h1>
 
 ![Resultado final do projeto](images/preview.png)
-
-<h4 align="center"><a href="file:///C:/Users/leite/Area%20de%20Trabalho/Anota%C3%A7%C3%B5es/ProjetoIntegrador/homepage/index.html">Clique para visitar o projeto</a></h4>
 
 ## 📚 Seções
 
